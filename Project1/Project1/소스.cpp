@@ -1,19 +1,15 @@
 #include <stdio.h>
 
-void hanoi(int n, int start, int work, int target);
+#define MAX_SIZE 10  // MAX_SIZE 정의
 
-
-void main() {
-	hanoi(3, 'A', 'B', 'C');
-	getchar();
+void sub(int x, int arr[]) {
+    x = 10;      // x 값은 main 함수에 영향을 미치지 않음
+    arr[0] = 10; // arr[0] 값은 변경됨
 }
 
-void hanoi(int n, int start, int work, int target) {
-	if (n == 1)
-		printf("%c에서 원반 %d를(을) %c로 옮김 \n", start, n, target);
-	else {
-		hanoi(n - 1, start, target, work);
-		printf("%c에서 원반 %d를(을) %c로 옮김\n", start, n, target);
-		hanoi(n - 1, work, start, target);
-	}
+void main() {
+    int var = 0, list[MAX_SIZE];
+    int list[0] = 0;
+    int sub(var, list);
+    printf("var: %d, list[0]: %d\n", var, list[0]);  // var는 여전히 0, list[0]은 10
 }
