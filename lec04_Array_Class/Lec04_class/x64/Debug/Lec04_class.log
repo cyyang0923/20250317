@@ -1,10 +1,10 @@
 ﻿  main.cpp
-C:\Users\USER\Desktop\data-structure-lab-2025\lec04_Array_Class\Lec04_class\Car.h(26,26): warning C4477: 'printf' : 서식 문자열 '% x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'Car *'입니다.
+C:\Users\USER\Desktop\data-structure-lab-2025\lec04_Array_Class\Lec04_class\Car.h(25,27): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'Car *'입니다.
   (소스 파일 'main.cpp'을(를) 컴파일하는 중)
   
-C:\Users\USER\Desktop\data-structure-lab-2025\lec04_Array_Class\Lec04_class\Car.h(26,26): warning C4313: 'printf': 서식 문자열의 '%x'이(가) Car *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\USER\Desktop\data-structure-lab-2025\lec04_Array_Class\Lec04_class\Car.h(25,27): warning C4313: 'printf': 서식 문자열의 '%x'이(가) Car *' 형식의 인수 1과(와) 충돌합니다.
   (소스 파일 'main.cpp'을(를) 컴파일하는 중)
   
-C:\Users\USER\Desktop\data-structure-lab-2025\lec04_Array_Class\Lec04_class\main.cpp(5,13): warning C4101: 'b' :참조되지 않은 지역 변수입니다.
-C:\Users\USER\Desktop\data-structure-lab-2025\lec04_Array_Class\Lec04_class\main.cpp(5,16): warning C4101: 'c' :참조되지 않은 지역 변수입니다.
-  Lec04_class.vcxproj -> C:\Users\USER\Desktop\data-structure-lab-2025\lec04_Array_Class\x64\Debug\Lec04_class.exe
+C:\Users\USER\Desktop\data-structure-lab-2025\lec04_Array_Class\Lec04_class\SportCar.h(2,10): error C1083: 포함 파일을 열 수 없습니다. 'Car.h': No such file or directory
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
